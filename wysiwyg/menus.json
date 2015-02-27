@@ -1,0 +1,74 @@
+{
+    "menus" : [
+        {
+            "buttonClass" : [
+                "btn",
+                "btn-default",
+                "btn-xs",
+                "dropdown-toggle",
+                "cp_btn"
+            ],
+            "buttonText" : "Font Size <span class=\"caret\"></span>",
+            "list" : [
+                {
+                    "class" : [
+                        "cp_btn",
+                        "font-size-dropdown"
+                    ],
+                    "command" : "fontsize",
+                    "value" : "1",
+                    "text" : "Very Small"
+                }, {
+                    "class" : [
+                        "cp_btn",
+                        "font-size-dropdown"
+                    ],
+                    "command" : "fontsize",
+                    "value" : "2",
+                    "text" : "Small"
+                }, {
+                    "class" : [
+                        "cp_btn",
+                        "font-size-dropdown"
+                    ],
+                    "command" : "fontsize",
+                    "value" : "3",
+                    "text" : "Normal"
+                }, {
+                    "class" : [
+                        "cp_btn",
+                        "font-size-dropdown"
+                    ],
+                    "command" : "fontsize",
+                    "value" : "4",
+                    "text" : "Medium"
+                }, {
+                    "class" : [
+                        "cp_btn",
+                        "font-size-dropdown"
+                    ],
+                    "command" : "fontsize",
+                    "value" : "5",
+                    "text" : "Large"
+                }, {
+                    "class" : [
+                        "cp_btn",
+                        "font-size-dropdown"
+                    ],
+                    "command" : "fontsize",
+                    "value" : "6",
+                    "text" : "Very Large"
+                }, {
+                    "class" : [
+                        "cp_btn",
+                        "font-size-dropdown"
+                    ],
+                    "command" : "fontsize",
+                    "value" : "7",
+                    "text" : "Maximum"
+                }
+
+            ]
+        }
+    ]
+}

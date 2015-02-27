@@ -1,0 +1,188 @@
+{
+    "buttons": [
+        {
+            "class": [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "undo",
+            "text" : "<i class=\"fa fa-undo\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "redo",
+            "text" : "<i class=\"fa fa-repeat\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "removeformat",
+            "text" : "Remove Format"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "forecolor",
+            "value" : "prompt('Define a basic color or apply a hexidecimal color code:', '')",
+            "text" : "Color"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "formatblock",
+            "value" : "'p'",
+            "text" : "<i class=\"fa fa-paragraph\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "bold",
+            "text" : "<i class=\"fa fa-bold\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "underline",
+            "text" : "<i class=\"fa fa-underline\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "italic",
+            "text" : "<i class=\"fa fa-italic\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "justifyleft",
+            "text" : "<i class=\"fa fa-align-left\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "justifycenter",
+            "text" : "<i class=\"fa fa-align-center\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "justifyright",
+            "text" : "<i class=\"fa fa-align-right\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "insertorderedlist",
+            "text" : "<i class=\"fa fa-list-ol\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "insertunorderedlist",
+            "text" : "<i class=\"fa fa-list-ul\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "formatblock",
+            "value" : "'blockquote'",
+            "text" : "Quote"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "outdent",
+            "text" : "<i class=\"fa fa-outdent\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "indent",
+            "text" : "<i class=\"fa fa-indent\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "customCommand" : "var link = prompt('Enter a URL:', 'http://'); oControlPanel.format('createlink',link);",
+            "text" : "<i class=\"fa fa-link\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "command" : "unlink",
+            "text" : "<i class=\"fa fa-chain-broken\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "customCommand" : "var imgSrc = prompt('Enter image location', ''); if (imgSrc !== null) { oControlPanel.format('insertimage',imgSrc); };",
+            "text" : "<i class=\"fa fa-picture-o\"></i>"
+        }, {
+            "class" : [
+                "btn", 
+                "btn-default", 
+                "btn-xs", 
+                "cp_btn"
+            ],
+            "customCommand" : "oControlPanel.switch_view();",
+            "text" : "Switch"
+        }
+    ]
+}
